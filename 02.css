@@ -1,0 +1,113 @@
+ *{ /*셀렉터 , 선택자  */
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    width: 60%;
+    background-color: lightblue;
+    margin-left: 20%;
+}
+
+section{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+header>h1{
+    text-align: center;
+}
+
+nav > ul{
+    display: flex;
+    flex-wrap:wrap ;
+    margin: 20px;
+    padding: 10px;
+    list-style: none;
+    justify-content: right;
+}
+
+nav li{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(116, 199, 231);
+    border-radius: 5px;
+}
+
+
+article{
+    padding: 20px;
+}
+
+article p{
+    margin: 20px;
+   
+}
+
+section div{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+section p{
+    margin-left: 20px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+footer ul{
+    list-style: none;
+    background-color: black;
+}
+
+footer li{
+    color: white;
+    margin-inline: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover , nav li:hover{
+    background-color: brown;
+}
+
+
+nav a:visited{
+    background-color: red;
+}
+
+@media only screen and (max-width: 760px) {
+    body {
+        width: 100%;
+        margin-left: 0px;
+      background-color: lightblue;
+    }
+
+    header >h1 {
+        font-size: medium;
+    
+    }
+
+  }
+/* nav > ul > li > a
+
+nav a  
+
+공백과 부등호의 차이
+
+
+/* 
+부등호와 공백의 차이점
+공백은 자신의 바로밑에만 보는게 아니라 그 아래 자식까지 본다 */
