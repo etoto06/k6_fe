@@ -5,13 +5,23 @@ button{
     color: yellowgreen;
     border: 0;
     margin: 10px;
-    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 button:hover{
-    background-color: brown;
+    background-color: rgb(49, 38, 199);
     color: azure;
     cursor: pointer;
 }
 
+
+h2{
+    font-size: medium;
+    color: blue;
+}
