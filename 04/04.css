@@ -1,0 +1,16 @@
+button{
+    background-color: aqua;
+    border: 20px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+#img{
+    border: 30px;
+}
+
+button:hover{
+    color: red;
+}

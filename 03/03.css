@@ -1,3 +1,9 @@
+
+
+/* #btArea2 >button{
+    background-color: green;
+} */
+
 button{
     width: 10px;
     height: 40px;
@@ -11,15 +17,22 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    writing-mode: vertical-lr;
 }
 
-button:hover{
+button:hover, #btArea2>button:hover{
     background-color: rgb(49, 38, 199);
     color: azure;
     cursor: pointer;
 }
 
+#bt3{
+    background-color: rebeccapurple;
+}
+
+.btGroup{
+    background-color: rgb(135, 178, 34);
+}
 
 h2{
     font-size: medium;
