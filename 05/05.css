@@ -1,0 +1,22 @@
+button{
+    background-color: aqua;
+    border: 20px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+image{
+    margin: 20px;
+    padding: 20px;
+}
+
+#img{
+    border: 30px;
+    margin: 10px;
+}
+
+button:hover{
+    color: red;
+}

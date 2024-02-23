@@ -6,7 +6,9 @@ document.addEventListener("DOMContentLoaded", ()=>{
     // 이벤트 리스너에 handleClick 함수 연결
  //bt1.addEventListener("click", handleClick);
 
-    bt1.addEventListener("click", ()=>{handleClick})
+    bt1.addEventListener('click', ()=>{
+      handleClick();
+   });
 
 
 function handleClick() {
