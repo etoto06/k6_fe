@@ -1,0 +1,17 @@
+#img{
+    border: 30px;
+    margin: 50px;
+}
+
+#bt1 {
+    justify-content: center;
+    display: flex;
+    margin: 100px;
+    border: 100px;
+    background-color: rgba(73, 10, 189, 0.767);
+    color: white;
+}
+
+div h3 {
+    color: rgb(15, 45, 218);
+}
